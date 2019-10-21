@@ -15,8 +15,8 @@ public class TestController {
     @RequestMapping(value="data.json",method={RequestMethod.GET})
     public Map<String,String> bookById(){
         Map<String,String> resultMap=new HashMap<>();
-        resultMap.put("myname","徐建程");
-        resultMap.put("mynumber","18002090138");
+        resultMap.put("myname","章意");
+        resultMap.put("mynumber","18002090238");
         return resultMap;
     }
 }
